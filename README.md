@@ -59,6 +59,12 @@ kafka-topics  --zookeeper localhost:2181 --alter --topic test --config max.messa
 kafka-topics  --zookeeper localhost:2181 --alter --topic test --partitions 2
 ```
 
+## GIT
+- git config --list
+- git config --global user.name "John Doe"
+- git config --global user.email [jd@polop]
+
+
  ## API
  ### https://www.ipify.org/
  Exemple : 
