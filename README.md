@@ -1,5 +1,12 @@
 # Reminder 
 
+# Table of Contents
+1. [Bash shell](#Bash shell)
+2. [Vim](#Vim)
+3. [Kafka](#Kafka)
+4. [Python](#Python)
+5. [GIT](#GIT)
+
 ## Bash shell
 ### Reference
 - https://catonmat.net/the-definitive-guide-to-bash-command-line-history
@@ -30,7 +37,7 @@
  Simply put, the ‘tee’ command is run as sudo and follows the vi/vim command on the current filename given.
  ```
  
- ##Kafka
+ ## Kafka
  ### References
  - https://riptutorial.com/fr/apache-kafka/example/27964/kafka-topics
  
