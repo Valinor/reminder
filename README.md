@@ -1,12 +1,12 @@
 # Reminder 
 
 # Table of Contents
-1. [Bash shell](#Bash shell)
+1. [Bash shell](#Bash)
 2. [Vim](#Vim)
 3. [Kafka](#Kafka)
 4. [Python](#Python)
 5. [GIT](#GIT)
-
+6. [API](#API)
 ## Bash shell
 ### Reference
 - https://catonmat.net/the-definitive-guide-to-bash-command-line-history
@@ -81,6 +81,7 @@ kafka-topics  --zookeeper localhost:2181 --alter --topic test --partitions 2
  ## API
  ### https://www.ipify.org/
  Exemple : 
- ```curl 'https://api.ipify.org?format=json' 
+ ```bash
+ curl 'https://api.ipify.org?format=json' 
 {"ip":"164.128.235.36"}
 ```
