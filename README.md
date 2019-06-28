@@ -30,6 +30,35 @@
  Simply put, the ‘tee’ command is run as sudo and follows the vi/vim command on the current filename given.
  ```
  
+ ##Kafka
+ ### References
+ - https://riptutorial.com/fr/apache-kafka/example/27964/kafka-topics
+ 
+ ### Command
+ - Topics list:
+ ```
+ kafka-topics  --zookeeper localhost:2181 --list
+ ```
+ - Topics list:
+ ```
+ kafka-topics  --bootstrap-server localhost:9092 --list
+ ```
+ - Create topics:
+ ```
+ kafka-topics  --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test
+ ```
+ - Describe topics: 
+ ```
+ kafka-topics  --zookeeper localhost:2181 --describe --topic test
+ ```
+ - Change topics: 
+ ```
+ change configuration
+kafka-topics  --zookeeper localhost:2181 --alter --topic test --config max.message.bytes=128000
+# add a partition
+kafka-topics  --zookeeper localhost:2181 --alter --topic test --partitions 2
+```
+
  ## API
  ### https://www.ipify.org/
  Exemple : 
