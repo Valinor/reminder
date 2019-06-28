@@ -59,6 +59,12 @@ kafka-topics  --zookeeper localhost:2181 --alter --topic test --config max.messa
 kafka-topics  --zookeeper localhost:2181 --alter --topic test --partitions 2
 ```
 
+## Python
+### python oneliner 
+- urllib.request.urlopen('http://www.python.org/')
+- python2 : python -m SimpleHTTPServer 8000
+- python3 : python -m http.server 8000 [--bind 127.0.0.1 --directory /tmp/ --cgi 8000]
+
 ## GIT
 - git config --list
 - git config --global user.name "John Doe"
