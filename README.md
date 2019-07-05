@@ -99,3 +99,5 @@ kafka-topics  --zookeeper localhost:2181 --alter --topic test --partitions 2
 
 ## Coding Interview
 - https://realpython.com/python-coding-interview-tips/
+- https://github.com/lydiahallie/javascript-questions
+
