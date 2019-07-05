@@ -10,6 +10,7 @@
 7. [CheatSheet](#CHEATSHEET)]
 ## Bash shell
 ### Reference
+- [The programmer Stone](https://www.datapacrat.com/Opinion/Reciprocality/r0/index.html)
 - https://catonmat.net/the-definitive-guide-to-bash-command-line-history
 - http://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html
 - https://linuxhint.com/30_bash_script_examples/
