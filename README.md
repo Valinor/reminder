@@ -7,6 +7,7 @@
 4. [Python](#Python)
 5. [GIT](#GIT)
 6. [API](#API)
+7. [CheatSheet](#CHEATSHEET)]
 ## Bash shell
 ### Reference
 - https://catonmat.net/the-definitive-guide-to-bash-command-line-history
@@ -71,6 +72,8 @@ kafka-topics  --zookeeper localhost:2181 --alter --topic test --partitions 2
 - urllib.request.urlopen('http://www.python.org/')
 - python2 : python -m SimpleHTTPServer 8000
 - python3 : python -m http.server 8000 [--bind 127.0.0.1 --directory /tmp/ --cgi 8000]
+- debug with breakpoint()
+
 
 ## GIT
 - git config --list
@@ -85,3 +88,14 @@ kafka-topics  --zookeeper localhost:2181 --alter --topic test --partitions 2
  curl 'https://api.ipify.org?format=json' 
 {"ip":"164.128.235.36"}
 ```
+## CheatSheet
+- http://overapi.com/javascript
+- https://www.debuggex.com/cheatsheet/regex/
+- https://marozed.ma/vue-cheatsheet/
+- https://vuejs-tips.github.io/vuex-cheatsheet/
+- https://yoksel.github.io/flex-cheatsheet/
+- https://devhints.io/
+- https://raw.githubusercontent.com/sogko/graphql-shorthand-notation-cheat-sheet/master/graphql-shorthand-notation-cheat-sheet.png
+
+## Coding Interview
+- https://realpython.com/python-coding-interview-tips/
