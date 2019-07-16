@@ -20,6 +20,7 @@
 ### Password generation
 - openssl rand -base64 32
 - tr -cd '[:alnum:]' < /dev/urandom | fold -w30 | head -n1
+- < /dev/urandom tr -dc _A-Z-a-z-0-9 | head -c${1:-32};echo;
 ### bash history manipulation
 - !!:gs/search/replace/
 - ^x^y
