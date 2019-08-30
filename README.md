@@ -28,7 +28,18 @@
 ## Bash scripting
 ### default argument
 - somecommand ${1:-foo}
+- operator [[ $vartest = "data" ]] && var="iftrue" || var="iffalse"
+### check
+```
+#!/bin/bash
 
+red=`tput setaf 1`
+green=`tput setaf 2`
+yellow=`tput setaf 3`
+bold=`tput bold`
+underline=`tput smul`
+reset=`tput sgr0`
+```
 ## Vim
 
 - :w !sudo tee %
