@@ -7,7 +7,7 @@
 4. [Python](#Python)
 5. [GIT](#GIT)
 6. [API](#API)
-7. [CheatSheet](#CHEATSHEET)]
+7. [CheatSheet](#CHEATSHEET)
 ## Bash shell
 ### Reference
 - [The programmer Stone](https://www.datapacrat.com/Opinion/Reciprocality/r0/index.html)
