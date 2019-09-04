@@ -28,18 +28,34 @@
 ## Bash scripting
 ### default argument
 - somecommand ${1:-foo}
-- operator [[ $vartest = "data" ]] && var="iftrue" || var="iffalse"
+- ternaire operator [[ $vartest = "data" ]] && var="iftrue" || var="iffalse"
 ### check
 ```
 #!/bin/bash
+set -eo pipefail
+```
+### Confirm manipulation
+read -n 1 -p "Apply this ? (y/n) " answer
+case ${answer:0:1} in
+    y|Y )
+        do_works
+    ;;
+    * )
+        echo "Cancel"
+    ;;
+esac
 
+### Color manipulation
+```
 red=`tput setaf 1`
 green=`tput setaf 2`
 yellow=`tput setaf 3`
 bold=`tput bold`
 underline=`tput smul`
 reset=`tput sgr0`
+echo "${underline}${bold}${red}Start Script ...${reset}"
 ```
+
 ## Vim
 
 - :w !sudo tee %
@@ -50,7 +66,8 @@ reset=`tput sgr0`
  % = Triggers the use of the current filename.
  Simply put, the ‘tee’ command is run as sudo and follows the vi/vim command on the current filename given.
  ```
- 
+- :s/foo/bar/G
+
  ## Kafka
  ### References
  - https://riptutorial.com/fr/apache-kafka/example/27964/kafka-topics
