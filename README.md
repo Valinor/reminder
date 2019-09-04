@@ -55,6 +55,12 @@ underline=`tput smul`
 reset=`tput sgr0`
 echo "${underline}${bold}${red}Start Script ...${reset}"
 ```
+## sed 
+### Replace dos to unix
+sed -i -e 's/\r$//' myscript.sh
+
+## Certificat
+openssl req -new -newkey rsa:2048 -nodes -keyout mydomain.key -out mydomain.csr
 
 ## Vim
 
