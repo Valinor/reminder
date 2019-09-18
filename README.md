@@ -21,9 +21,16 @@
 - openssl rand -base64 32
 - tr -cd '[:alnum:]' < /dev/urandom | fold -w30 | head -n1
 - < /dev/urandom tr -dc _A-Z-a-z-0-9 | head -c${1:-32};echo;
+
 ### bash history manipulation
 - !!:gs/search/replace/
 - ^x^y
+
+### Check port open
+(timeout 2 bash -c '</dev/tcp/127.0.0.1/17500 && echo PORT OPEN || echo PORT CLOSED') 2>/dev/null
+nc -zv kafka02 6667
+-z = sets nc to simply scan for listening daemons, without actually sending any data to them
+-v = enables verbose mode
 
 ## Bash scripting
 ### default argument
@@ -73,6 +80,8 @@ openssl req -new -newkey rsa:2048 -nodes -keyout mydomain.key -out mydomain.csr
  Simply put, the ‘tee’ command is run as sudo and follows the vi/vim command on the current filename given.
  ```
 - :s/foo/bar/G
+- :r myfile
+insert the content of myfile in the open buffer
 
  ## Kafka
  ### References
