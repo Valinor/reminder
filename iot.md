@@ -1,0 +1,1 @@
+- https://www.zigbee2mqtt.io/information/supported_devices.html
