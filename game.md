@@ -14,3 +14,18 @@
 ## Ubisoft
 - https://github.com/Haoose/UPLAY_GAME_ID
 - https://github.com/ubisoftinc
+
+# Game developpement History
+
+## Console
+
+### Dreamcast
+ - https://www.gamasutra.com/blogs/BrandonSheffield/20190909/350345/Dreamcast_20th_anniversary_interview_extravaganza.php
+
+# Game Marketing
+
+##Indy
+  - https://www.gamasutra.com/blogs/FrancoisGuibert/20190906/350252/An_indie_game_developer_discovering_the_world_of_user_acquisition_and_advertising_with_numbers.php
+ 
+  - https://gamasutra.com/blogs/SimonCarless/20190907/350331/Video_Game_Deep_Cuts_Underpricing_The_Gears_Of_Steam.php?elq_mid=92951&elq_cid=4999924
+  - https://gamediscoverability.substack.com/p/why-you-may-be-underpricing-your
