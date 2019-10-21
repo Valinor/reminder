@@ -26,6 +26,14 @@
 - !!:gs/search/replace/
 - ^x^y
 
+### Retrieve my IP
+- ip=$(hostname --ip-address)
+- ip=$(ip route get 1 | awk '{print $NF;exit}')
+
+### AWK tips
+- Extract Value beetween tags : echo "asdf <ip>test</ip> dsaf" | awk -v RS='</?ip>' '!(NR%2)'
+  - Result : test
+
 ### Check port open
 (timeout 2 bash -c '</dev/tcp/127.0.0.1/17500 && echo PORT OPEN || echo PORT CLOSED') 2>/dev/null
 nc -zv kafka02 6667
