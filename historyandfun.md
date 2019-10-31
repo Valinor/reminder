@@ -1,0 +1,1 @@
+- https://slate.com/technology/2019/10/consequential-computer-code-software-history.html
