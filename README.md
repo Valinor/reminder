@@ -149,6 +149,7 @@ kafka-topics  --zookeeper localhost:2181 --alter --topic test --partitions 2
 - https://yoksel.github.io/flex-cheatsheet/
 - https://devhints.io/
 - https://raw.githubusercontent.com/sogko/graphql-shorthand-notation-cheat-sheet/master/graphql-shorthand-notation-cheat-sheet.png
+- https://kubernetes.io/fr/docs/reference/kubectl/cheatsheet/
 
 ## Coding Interview
 - https://realpython.com/python-coding-interview-tips/
