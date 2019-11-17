@@ -8,6 +8,7 @@
 5. [GIT](#GIT)
 6. [API](#API)
 7. [CheatSheet](#CHEATSHEET)
+8. [ffmeg](#FFMEG)
 ## Bash shell
 ### Reference
 - [The programmer Stone](https://www.datapacrat.com/Opinion/Reciprocality/r0/index.html)
@@ -155,3 +156,5 @@ kafka-topics  --zookeeper localhost:2181 --alter --topic test --partitions 2
 - https://realpython.com/python-coding-interview-tips/
 - https://github.com/lydiahallie/javascript-questions
 
+## FFMEG
+- Convertion en mp3 d'une autre source : ffmpeg -i audio.aac -acodec libmp3lame audio.mp3
