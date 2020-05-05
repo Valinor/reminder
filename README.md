@@ -32,7 +32,7 @@
 - ip=$(ip route get 1 | awk '{print $NF;exit}')
 
 ### AWK tips
-- Extract Value beetween tags : echo "asdf <ip>test</ip> dsaf" | awk -v RS='</?ip>' '!(NR%2)'
+- Extract Value beetween tags : echo "asdf \<ip\>test\</ip\> dsaf" | awk -v RS='</?ip>' '!(NR%2)'
   - Result : test
 
 ### Check port open
