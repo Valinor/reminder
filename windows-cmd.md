@@ -11,12 +11,15 @@ net use w: /d
      Invoke-WebRequest -Uri "http://www.contoso.com" -OutFile "C:\path\file"
 
 With credentials:
+
      Invoke-WebRequest -Uri https://www.contoso.com/ -OutFile C:"\path\file" -Credential "yourUserName"
 or
+
      $Credentials = Get-Credential
      Invoke-WebRequest -Uri "https://www.contoso.com" -OutFile "C:\path\file" -Credential $Credentials
 
 Other form
+
      Invoke-WebRequest "http://www.contoso.com" | Select-Object -ExpandProperty Content | Out-File "file"
      Invoke-WebRequest "http://www.contoso.com" -OutFile "file" -PassThru | Select-Object -ExpandProperty Content
 
