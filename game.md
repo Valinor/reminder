@@ -27,7 +27,13 @@
  - https://www.assembler-games.com/
  - https://wireframe.raspberrypi.org/
  
-
+# Game developpement Stuff
+ - https://www.youtube.com/watch?v=LtBNffzWhf4&feature=emb_title : How Dead Cells Secretly Stops You From Dying | Audio Logs
+ - https://twitter.com/MattThorson/status/1238338574220546049 : Celeste game-feel things
+ - https://www.youtube.com/watch?v=lctXaT9pxA0 : Create a procedural planet
+ - http://www.davetech.co.uk/gamedevplatformer : Jump graph from plateformer game
+ - https://medium.com/@MattThorson/celeste-and-towerfall-physics-d24bd2ae0fc5 : celeste and towerfall physics
+ 
 # Game developpement History
 
 ## Console
@@ -37,7 +43,7 @@
  
 # Game Marketing
 
-##Indy
+## Indy
   - https://www.gamasutra.com/blogs/FrancoisGuibert/20190906/350252/An_indie_game_developer_discovering_the_world_of_user_acquisition_and_advertising_with_numbers.php
  
   - https://gamasutra.com/blogs/SimonCarless/20190907/350331/Video_Game_Deep_Cuts_Underpricing_The_Gears_Of_Steam.php?elq_mid=92951&elq_cid=4999924
@@ -45,3 +51,9 @@
 
 # References sites
  - https://www.polygon.com/
+ - https://howlongtobeat.com/
+ - https://steamspy.com/
+ 
+# References blogs
+ - http://www.davetech.co.uk/
+ 
