@@ -48,6 +48,7 @@
  
   - https://gamasutra.com/blogs/SimonCarless/20190907/350331/Video_Game_Deep_Cuts_Underpricing_The_Gears_Of_Steam.php?elq_mid=92951&elq_cid=4999924
   - https://gamediscoverability.substack.com/p/why-you-may-be-underpricing-your
+  - https://www.codecks.io/blog/2020/curious-expedition-financial-history/
 
 # References sites
  - https://www.polygon.com/
