@@ -75,8 +75,18 @@ echo "${underline}${bold}${red}Start Script ...${reset}"
 ### Replace dos to unix
 sed -i -e 's/\r$//' myscript.sh
 
+# TLS / Certificats
 ## Certificat
-openssl req -new -newkey rsa:2048 -nodes -keyout mydomain.key -out mydomain.csr
+### CSR : Certificat Server Request
+- openssl req -new -newkey rsa:2048 -nodes -keyout mydomain.key -out mydomain.csr
+- openssl req -new -newkey rsa:2048 -nodes -keyout server.key -out server.csr -subj "/C=*Country*/ST=*State or Province*/L=*Locality or City*/O=*Company*/OU=*Organizational unit*/CN=*Common Name*"
+
+### Check certificat / private key / csr
+- openssl rsa -noout -modulus -in mykey.key | openssl md5 > key.mod
+- openssl req -noout -modulus -in mycsr.csr | openssl md5 > csr.mod
+- openssl x509 -noout -modulus -in mycert.crt | openssl md5 > cert.mod
+- diff3 key.mod cert.mod csr.mod
+Result must be the same.
 
 ## Vim
 
