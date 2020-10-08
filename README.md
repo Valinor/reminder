@@ -75,8 +75,7 @@ echo "${underline}${bold}${red}Start Script ...${reset}"
 ### Replace dos to unix
 sed -i -e 's/\r$//' myscript.sh
 
-# TLS / Certificats
-## Certificat
+## TLS / Certificats
 ### CSR : Certificat Server Request
 - openssl req -new -newkey rsa:2048 -nodes -keyout mydomain.key -out mydomain.csr
 - openssl req -new -newkey rsa:2048 -nodes -keyout server.key -out server.csr -subj "/C=*Country*/ST=*State or Province*/L=*Locality or City*/O=*Company*/OU=*Organizational unit*/CN=*Common Name*"
@@ -87,6 +86,8 @@ sed -i -e 's/\r$//' myscript.sh
 - openssl x509 -noout -modulus -in mycert.crt | openssl md5 > cert.mod
 - diff3 key.mod cert.mod csr.mod
 Result must be the same.
+
+- https://www.sysnove.fr/blog/2016/03/utilisation-pratique-letsencrypt-acme-tiny.html
 
 ## Vim
 
