@@ -26,3 +26,15 @@ Other form
 ## Grep
 kubectl logs -f (kubectl get pod | where {$_ -match 'chaos'}).Split(" ")[0]
 
+## Delete Cortona
+    Get-appxpackage -allusers *Microsoft.549981C3F5F10* | Remove-AppxPackage
+
+## Network
+### Disable a network adapter PowerShell :
+     Get-NetAdapter | format-list
+     Disable-NetAdapter -Name "your network adapter name" -Confirm:$false
+     Enable-NetAdapter -Name "your network adapter name" -Confirm:$false
+### 
+     netsh interface show interface
+     netsh interface set interface "Ethernet" disable
+     netsh interface set interface "Interface Name" enable
