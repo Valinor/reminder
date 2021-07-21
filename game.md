@@ -33,7 +33,9 @@
  - https://www.youtube.com/watch?v=lctXaT9pxA0 : Create a procedural planet
  - http://www.davetech.co.uk/gamedevplatformer : Jump graph from plateformer game
  - https://medium.com/@MattThorson/celeste-and-towerfall-physics-d24bd2ae0fc5 : celeste and towerfall physics
- 
+ - https://noclip.website/ : lets you fly freely around videogame environments, an incredible resource for environment and level designers well worth checking out
+ - https://www.gameuidatabase.com/ : Database of gameUI
+ - http://vgmaps.com/ : All maps from games.
 # Game developpement History
 
 ## Console
