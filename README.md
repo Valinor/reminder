@@ -138,7 +138,10 @@ kafka-topics  --zookeeper localhost:2181 --alter --topic test --partitions 2
 - python2 : python -m SimpleHTTPServer 8000
 - python3 : python -m http.server 8000 [--bind 127.0.0.1 --directory /tmp/ --cgi 8000]
 - debug with breakpoint()
-
+### python pip
+- pip install --download mypackage
+- pip install --no-index --find-links `pwd` mypackage
+- python pip-10.0.1-py2.py3-none-any.whl/pip install --no-index pip-10.0.1-py2.py3-none-any.whl
 
 ## GIT
 - git config --list
