@@ -30,6 +30,14 @@
 ### Retrieve my IP
 - ip=$(hostname --ip-address)
 - ip=$(ip route get 1 | awk '{print $NF;exit}')
+- curl https://ipinfo.io/ip
+- wget -qO- https://ipecho.net/plain ; echo
+- dig +short myip.opendns.com @resolver1.opendns.com
+- LANG=c ifconfig | grep -B1 "inet addr" |awk '{ if ( $1 == "inet" ) { print $2 } else if ( $2 == "Link" ) { printf "%s:" ,$1 } }' |awk -F: '{ print $1 ": " $3 }'
+- http://checkip.amazonaws.com
+- ifconfig.me
+- stunclient stun.services.mozilla.com
+- ip addr show
 
 ### AWK tips
 - Extract Value beetween tags : echo "asdf \<ip\>test\</ip\> dsaf" | awk -v RS='</?ip>' '!(NR%2)'
