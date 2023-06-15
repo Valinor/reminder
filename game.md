@@ -40,6 +40,8 @@
 
 ## Console
 
+- https://www.copetti.org/writings/consoles/ Architecture des consoles
+
 ### Dreamcast
  - https://www.gamasutra.com/blogs/BrandonSheffield/20190909/350345/Dreamcast_20th_anniversary_interview_extravaganza.php
  
