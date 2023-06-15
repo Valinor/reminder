@@ -64,3 +64,17 @@ https://www.gamedeveloper.com/programming/tips-on-writing-code-for-data-oriented
 
 # I-Jepa
 https://ai.facebook.com/blog/yann-lecun-ai-model-i-jepa/
+
+# Deeplearning Stuff
+
+https://huggingface.co/
+https://huggingface.co/stabilityai
+
+# Images
+## StableDiffusion
+
+ https://stability.ai/
+ https://github.com/Stability-AI
+ https://github.com/AUTOMATIC1111/stable-diffusion-webui/
+ https://ebsynth.com/
+ 
