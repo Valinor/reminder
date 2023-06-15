@@ -1,5 +1,8 @@
 # Game developpement related stuff
 
+## GDC 
+ - https://www.gamedeveloper.com/business/the-best-slides-i-saw-at-gdc-2019
+
 # Company 
 
 ## CD Projekts
@@ -15,6 +18,9 @@
 - https://github.com/Haoose/UPLAY_GAME_ID
 - https://github.com/ubisoftinc
 
+## Post Mortem
+ - https://www.gamedeveloper.com/design/-i-ratchet-clank-2016-i-postmortem : 
+
 # Console
 
 ## Dreamcast 
@@ -26,7 +32,12 @@
 ## Stuff
  - https://www.assembler-games.com/
  - https://wireframe.raspberrypi.org/
- 
+ - https://whynowgaming.com/the-rise-fall-and-rise-of-the-3d-platformer/
+ - https://www.fortressofdoors.com/so-you-want-to-compete-with-roblox/
+
+ - https://www.darkpattern.games/ : Dark Pattern
+
+
 # Game developpement Stuff
  - https://www.youtube.com/watch?v=LtBNffzWhf4&feature=emb_title : How Dead Cells Secretly Stops You From Dying | Audio Logs
  - https://twitter.com/MattThorson/status/1238338574220546049 : Celeste game-feel things
@@ -36,6 +47,10 @@
  - https://noclip.website/ : lets you fly freely around videogame environments, an incredible resource for environment and level designers well worth checking out
  - https://www.gameuidatabase.com/ : Database of gameUI
  - http://vgmaps.com/ : All maps from games.
+
+# Game Rendering
+ - https://www.pbr-book.org/ : Physically Based Rendering
+ - https://www.realtimerendering.com/#intro
 # Game developpement History
 
 ## Console
@@ -44,7 +59,7 @@
 
 ### Dreamcast
  - https://www.gamasutra.com/blogs/BrandonSheffield/20190909/350345/Dreamcast_20th_anniversary_interview_extravaganza.php
- 
+ - http://oldvcr.blogspot.com/2022/11/refurb-weekend-sega-dreamcast.html : Réparer une Dreamcast
 # Game Marketing
 
 ## Indy
