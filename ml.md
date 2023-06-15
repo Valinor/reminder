@@ -2,6 +2,10 @@
 https://github.com/togethercomputer/OpenChatKit
 https://huggingface.co/laion/CLIP-ViT-bigG-14-laion2B-39B-b160k
 
+ # Vigogne : IA
+ https://zonetuto.fr/intelligence-artificielle/vigogne-ia-francaise-open-source-alternative-chatgpt/
+ https://github.com/bofenghuang/vigogne.git
+
 # Bing
 https://www.bing.com/create
 
@@ -47,3 +51,16 @@ https://www.midlibrary.io/ : Style library
 https://tokenizedhq.com/midjourney-prompts/ : Prompt Helper
 https://docs.midjourney.com/ : Documentation officielle
 https://www.reddit.com/r/midjourney/ : Reddit
+
+# Segment Anything
+https://github.com/facebookresearch/segment-anything
+https://segment-anything.com/
+
+# Computer vision
+https://medium.com/@ageitgey/snagging-parking-spaces-with-mask-r-cnn-and-python-955f2231c400
+
+# DataOriented Design
+https://www.gamedeveloper.com/programming/tips-on-writing-code-for-data-oriented-design
+
+# I-Jepa
+https://ai.facebook.com/blog/yann-lecun-ai-model-i-jepa/
