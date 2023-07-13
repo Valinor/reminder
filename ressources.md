@@ -19,3 +19,9 @@
 ## Courses
 
 - https://acloud.guru/
+
+## Software
+### Developpement
+- https://sdkman.io/
+- https://podman.io/
+- 
