@@ -35,6 +35,8 @@ https://huggingface.co/datasets/Nerfgun3/bad_prompt : BadPrompt nerf
 https://github.com/LambdaLabsML/examples/tree/main/stable-diffusion-finetuning : Finetuning Stable diffusion
 https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111 : Multidiffusion
 
+https://github.com/IDEA-Research/GroundingDINO : Replacement in image with prompt
+
 ## Implementing SD
 https://course.fast.ai/
 https://github.com/xrsrke/stable-diffusion-from-scratch
