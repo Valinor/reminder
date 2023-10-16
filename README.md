@@ -44,10 +44,15 @@
   - Result : test
 
 ### Check port open
-(timeout 2 bash -c '</dev/tcp/127.0.0.1/17500 && echo PORT OPEN || echo PORT CLOSED') 2>/dev/null
-nc -zv kafka02 6667
--z = sets nc to simply scan for listening daemons, without actually sending any data to them
--v = enables verbose mode
+- (timeout 2 bash -c '</dev/tcp/127.0.0.1/17500 && echo PORT OPEN || echo PORT CLOSED') 2>/dev/null
+- nc -zv kafka02 6667
+   -z = sets nc to simply scan for listening daemons, without actually sending any data to them
+   -v = enables verbose mode
+
+### Ping without ping (Test port with no tools)
+- timeout 10 true >/dev/tcp/8.8.8.8/53
+- timeout 10 true >/dev/tcp/142.250.201.163/80
+- timeout 10 true >/dev/tcp/142.250.201.163/809
 
 ## Bash scripting
 ### default argument
