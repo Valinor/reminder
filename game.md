@@ -2,6 +2,7 @@
 
 ## GDC 
  - https://www.gamedeveloper.com/business/the-best-slides-i-saw-at-gdc-2019
+ - https://www.gamedeveloper.com/business/gdc-2021-wrapup-the-best-slides-of-the-event
 
 # Company 
 
