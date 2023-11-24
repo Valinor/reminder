@@ -22,6 +22,9 @@
 ## Post Mortem
  - https://www.gamedeveloper.com/design/-i-ratchet-clank-2016-i-postmortem : 
 
+## Double Fine
+- https://www.gamedeveloper.com/production/empower-your-dev-team-with-these-five-rules-from-double-fine-s-kevin-johnson
+
 # Console
 
 ## Dreamcast 
