@@ -76,4 +76,8 @@
  
 # References blogs
  - http://www.davetech.co.uk/
- 
+
+ ## Articles 
+ - 2023-03-15 : https://www.remedygames.com/article/about-game-engines
+ - 2023-11-06 : https://www.remedygames.com/article/how-northlight-makes-alan-wake-2-shine
+ - 
