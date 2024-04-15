@@ -72,8 +72,12 @@ https://ai.facebook.com/blog/yann-lecun-ai-model-i-jepa/
 
 https://huggingface.co/
 https://huggingface.co/stabilityai
+https://ollama.com/blog/embedding-models
+https://huggingface.co/spaces/CohereForAI/c4ai-command-r-plus
+
 
 # Images
+- https://github.com/Fanghua-Yu/SUPIR
 ## StableDiffusion
 
  https://stability.ai/
