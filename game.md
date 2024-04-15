@@ -32,6 +32,17 @@
  - https://brianpeek.com/dreamcast-gamedev-with-kos-and-bash-on-windows/
  - http://gamedev.allusion.net/softprj/kos/
  - https://dreamcast-talk.com/
+ - https://gdemu.wordpress.com/
+
+## GameBoy
+ - https://gbdev.io/resources.html
+
+## N64
+ - https://ed64p.com/buy/
+
+## GBA
+## NDS
+## 3DS
 
 ## Stuff
  - https://www.assembler-games.com/
@@ -55,6 +66,7 @@
 # Game Rendering
  - https://www.pbr-book.org/ : Physically Based Rendering
  - https://www.realtimerendering.com/#intro
+   
 # Game developpement History
 
 ## Console
@@ -64,6 +76,7 @@
 ### Dreamcast
  - https://www.gamasutra.com/blogs/BrandonSheffield/20190909/350345/Dreamcast_20th_anniversary_interview_extravaganza.php
  - http://oldvcr.blogspot.com/2022/11/refurb-weekend-sega-dreamcast.html : Réparer une Dreamcast
+
 # Game Marketing
 
 ## Indy
@@ -77,6 +90,11 @@
  - https://www.polygon.com/
  - https://howlongtobeat.com/
  - https://steamspy.com/
+
+# News sites
+ - http://www.hardcoregaming101.net/
+
+## VR
  
 # References blogs
  - http://www.davetech.co.uk/
